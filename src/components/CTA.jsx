@@ -64,7 +64,7 @@ const CTA = () => {
               ladder. In other words, our digital solutions can get the results.
             </p>
 
-            <button className="border-2 bg-[#bd1f48] border-[#bd1f48] text-[#bd1f48] hover:bg-transparent hover:transition-all hover:ease-in-out hover:duration-500 hover:cursor-pointer hover:border-[#bd1f48] rounded-full px-8 py-2 transition-colors hover:text-white">
+            <button className="border-2 bg-[#bd1f48] border-[#bd1f48] text-white hover:bg-transparent hover:transition-all hover:ease-in-out hover:duration-500 hover:cursor-pointer hover:border-[#bd1f48] rounded-full px-8 py-2 transition-colors hover:text-[#bd1f48]">
               GET STARTED
             </button>
           </div>

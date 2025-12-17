@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
-
+import footerLogo from "../assets/navbar-logo-cs.png";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,30 +38,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-around gap-[115px]">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-3 group">
-          <svg viewBox="0 0 50 50" className="w-10 h-10">
-            <defs>
-              <linearGradient
-                id="headerLogoGradient"
-                x1="0%"
-                y1="0%"
-                x2="100%"
-                y2="100%"
-              >
-                <stop offset="0%" stopColor="#7c3aed" />
-                <stop offset="100%" stopColor="#ec4899" />
-              </linearGradient>
-            </defs>
-            <path
-              d="M20 8 C10 8 5 16 5 25 C5 34 10 42 20 42 C26 42 31 39 35 35 L30 30 C27 33 24 35 20 35 C13 35 8 30 8 25 C8 20 13 15 20 15 C24 15 27 17 30 20 L35 15 C31 11 26 8 20 8 Z"
-              fill="url(#headerLogoGradient)"
-              opacity="0.9"
-            />
-            <path
-              d="M28 6 L28 44 L34 44 L34 30 L40 30 C47 30 50 25 50 19 C50 13 47 6 40 6 L28 6 Z M34 12 L38 12 C42 12 44 14.5 44 19 C44 23.5 42 26 38 26 L34 26 L34 12 Z"
-              fill="#ec4899"
-              opacity="0.8"
-            />
-          </svg>
+          <img src={footerLogo} alt="Creatif Soft Logo" className=" w-14" />
           <span className="text-white font-semibold text-xl tracking-wide">
             Creatif Soft
           </span>
