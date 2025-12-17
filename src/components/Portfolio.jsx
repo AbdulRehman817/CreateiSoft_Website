@@ -65,6 +65,9 @@ const Portfolio = () => {
             only represents the diverse skills of our teams but also reflects
             the dedication we put into every project.
           </p>
+          <button className="mt-4 px-6 py-2 rounded-full bg-[#bd1f48] text-white font-semibold shadow hover:opacity-90 transition">
+            Our Portfolio
+          </button>
         </div>
 
         {/* Grid Portfolio */}
@@ -111,12 +114,6 @@ const Portfolio = () => {
               <h3 className="text-2xl font-bold text-[#311b53] mb-2">
                 {selectedItem.title}
               </h3>
-              <button
-                onClick={() => setSelectedItem(null)}
-                className="mt-4 px-6 py-2 rounded-full bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold shadow hover:opacity-90 transition"
-              >
-                Close
-              </button>
             </div>
           </div>
         </div>

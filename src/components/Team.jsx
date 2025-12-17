@@ -34,7 +34,7 @@ const Team = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="container mx-auto px-6 lg:px-12">
+      <div className="container mx-auto px-6  lg:px-12">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Visual */}
           <div
@@ -74,7 +74,7 @@ const Team = () => {
             </p>
 
             <button className="border-2 bg-white border-white text-[#bd1f48] hover:bg-transparent hover:transition-all hover:ease-in-out hover:duration-500 hover:cursor-pointer hover:border-white rounded-full px-8 py-2 transition-colors hover:text-white">
-              GET A QUOTE
+              Join Our Force
             </button>
           </div>
         </div>

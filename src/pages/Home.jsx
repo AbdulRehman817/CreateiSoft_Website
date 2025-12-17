@@ -6,6 +6,7 @@ import Services from "../components/Services";
 import Team from "../components/Team";
 import Portfolio from "../components/Portfolio";
 import Testimonials from "../components/Testimonials";
+import CTA from "../components/CTA";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Team />
       <Portfolio />
       <Testimonials />
+      <CTA />
     </>
   );
 };
